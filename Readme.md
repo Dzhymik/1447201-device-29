@@ -1,7 +1,11 @@
 # Личный проект «Девайс»
 
 * Студент: [Dmytro Lahodniuk](https://up.htmlacademy.ru/htmlcss/29/user/1447201).
+<<<<<<< HEAD
 * Наставник: [Александр Григорьев](https://htmlacademy.ru/profile/fuckhtml).
+=======
+* Наставник: `Неизвестно`.
+>>>>>>> parent of 8d9dfd6... Добавил наставника
 
 ---
 
