@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Dmytro Lahodniuk](https://up.htmlacademy.ru/htmlcss/29/user/1447201).
-* Наставник: `Александр Григорьев`.
+* Наставник: [Александр Григорьев](https://htmlacademy.ru/profile/fuckhtml).
 
 ---
 
