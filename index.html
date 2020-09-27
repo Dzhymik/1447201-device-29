@@ -4,15 +4,17 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
 
 
   <body>
 
-    <header>
+    <header class="main-header">
 
       <a class="main-logo" href="index.html">
-        <img class="main-logo" src="img/divice-logo.svg" width="163" height="35" alt="Логотип магазина гаджетов DEVICE">
+        <img src="img/divice-logo.svg" width="163" height="35" alt="Логотип магазина гаджетов DEVICE">
       </a>
 
       <nav class="main-nav">
@@ -20,17 +22,17 @@
           <li class="user-item">
             <form class="site-search" action="">
               <input type="search" placeholder="Поиск по сайту">
-              <button type="submit">Искать</button>
+              <button class="visual-hidden" type="submit">Искать</button>
             </form>
           </li>
           <li class="user-item">
-            <a class="user-link" href="blank.html">Войти</a>
+            <a class="user-link login" href="blank.html">Войти</a>
           </li>
           <li class="user-item">
-            <a class="user-link" href="#">Сравнить</a>
+            <a class="user-link compare" href="#">Сравнить</a>
           </li>
           <li class="user-item">
-            <a class="user-link" href="#">Корзина</a>
+            <a class="user-link basket" href="#">Корзина</a>
           </li>
         </ul>
 
@@ -187,7 +189,7 @@
       <section class="partners">
         <h2 class="visual-hidden">Партнёры</h2>
         <ul class="partners-list">
-          <li class="partners-item">
+          <li class="partners-item1">
             <a href="#">DJI</a>
           </li>
           <li class="partners-item">
@@ -214,16 +216,17 @@
           <li class="about-item">
             ЖелДорЭкспедиция
           </li>
-          <p class="about-text">
-            Огромный выбор гаджетов не оставит равнодушным гика,который есть в каждом из нас.
-          </p>
-          <p class="about-text">
-            Мы можем доставить ваш товар в самые отдаленные точкиРоссии! DEVICE работает со многими транспортными компаниями:
-          </p>
+          
           <li class="about-link">
             <a href="#">Подробнее о нас</a>
           </li>
         </ul>
+        <p class="about-text">
+          Огромный выбор гаджетов не оставит равнодушным гика,который есть в каждом из нас.
+        </p>
+        <p class="about-text">
+          Мы можем доставить ваш товар в самые отдаленные точкиРоссии! DEVICE работает со многими транспортными компаниями:
+        </p>
       </section>
 
       <section class="contacts">
